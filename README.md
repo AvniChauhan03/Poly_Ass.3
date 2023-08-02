@@ -7,10 +7,15 @@ Logical Gate Circom Circuit with ZK-SNARK Proof
 This is a project which implements a logical gate circuit by using the circom programming language. The circuit implements the following truth table:
 
 A   B   X   Y   Q
+
 0   0   0   1   1
+
 0   1   0   0   0
+
 1   0   0   1   1
+
 1   1   1   0   1
+
 The goal of the project is to prove that you know the inputs A=0 and B=1 that yield a 0 output.
 
 # Prerequisites
